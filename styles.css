@@ -1,0 +1,83 @@
+.hero-section-top {
+    text-align: center;
+    background-image: url(./images/mirpur3.jpg);
+    color: white;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#title {
+    background-color: #457b9d;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+#description {
+    background-color: #1d3557;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.hero-section-mid {
+    padding-top: 20px;
+    height: 250px;
+    background-color: #bde0fe;
+    text-align: center;
+}
+
+#hero-section-mid-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#img-std {
+    width: 20%;
+    border-radius: 50%;
+
+}
+
+#img-zoo {
+    width: 20%;
+    border-radius: 50%;
+}
+
+#img-park {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.hero-section-bottom {
+    background: linear-gradient(#f1faee, #fde2e4);
+}
+
+.hero-section-bottom-content {
+    background-color: #a8dadc;
+    display: flex;
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 5px;
+    border-bottom: #1d3557 8px solid;
+    box-shadow: 0px 5px 10px 0px black;
+}
+
+#guide {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.info {
+    text-align: center;
+}
+
+/* #e63946  #f1faee #a8dadc #457b9d #1d3557*/
